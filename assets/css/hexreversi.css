@@ -1,0 +1,32 @@
+.centering_item {
+   position: relative;          /* 位置指定 */
+   padding: 0px;               /* 余白指定 */
+   top:  0;                     /* 位置指定 */
+   bottom:  0;                  /* 位置指定 */
+   left:  0;                    /* 位置指定 */
+   right:  0;                   /* 位置指定 */
+   margin:  auto;               /* 中央寄せ */
+}
+
+.cell {
+    user-select: none;
+    border: 1px solid black;
+    background: rgb(95, 211, 27);
+    font-size:0
+}
+.cell:hover {
+    filter: brightness(150%);
+}
+
+.white {
+    font-size:25px;
+    background-image: url("/images/white.png");
+    background-size: 80px 80px;
+}
+
+.black {
+    font-size:25px;
+    background-image: url("/images/black.png");
+    background-size: 80px 80px;
+}
+
